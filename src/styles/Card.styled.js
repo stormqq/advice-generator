@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import DesktopDivider from "../assets/pattern-divider-desktop.svg";
 import Dice from "../assets/icon-dice.svg";
-export const CardContainer = styled.div`
+
+export const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;

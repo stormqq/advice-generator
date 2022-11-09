@@ -23,6 +23,7 @@ function App() {
   return (
     <MainContainer>
       <Card data={data} handleClick={uploadAdvice} />
+      <h1>TEST</h1>
     </MainContainer>
   );
 }

@@ -1,5 +1,5 @@
 import {
-  CardContainer,
+  CardWrapper,
   AdviceNumber,
   AdviceText,
   CardImage,
@@ -10,12 +10,12 @@ export default function Card({ data, handleClick }) {
   const { advice, id } = data;
   return (
     <>
-      <CardContainer>
+      <CardWrapper>
         <AdviceNumber>ADVICE #{id}</AdviceNumber>
         <AdviceText>"{advice}"</AdviceText>
         <CardImage />
         <DiceButton onClick={handleClick} />
-      </CardContainer>
+      </CardWrapper>
     </>
   );
 }
